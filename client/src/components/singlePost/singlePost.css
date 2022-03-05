@@ -1,0 +1,97 @@
+.singlePost {
+  flex: 9;
+}
+
+.singlePostWrapper {
+  padding: 20px;
+  padding-right: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.singlePostImg {
+  width: 100%;
+  height: 300px;
+  border-radius: 5px;
+  object-fit: cover;
+}
+
+.singlePostTitle {
+  text-align: center;
+  margin: 10px;
+  font-family: "Laura", serif;
+  font-size: 28px;
+}
+.singlePostTitleInput {
+  text-align: center;
+  margin: 10px;
+  font-family: "Laura", serif;
+  font-size: 28px;
+  border: none;
+  color: grey;
+  border-bottom: 1px solid lightgray;
+}
+
+.singleposttitleinput:focus {
+  outline: none;
+}
+
+.singlePostEditContainer {
+  float: right;
+  font-size: 16px;
+}
+
+.singlePostIcon {
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.singlePostIcon:first-child {
+  color: teal;
+}
+
+.singlePostIcon:last-child {
+  color: tomato;
+}
+
+.singlePostInfo {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between; /*TO give space between Author(left) and Time of posting(right) */
+  font-size: 16px;
+  font-family: "Varela Round", sans-serif;
+  color: #b39656;
+}
+
+.singlePostDesc {
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.singlePostDesc::first-letter {
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: 600px;
+}
+
+.singlePostDescInput {
+  border: none;
+  color: #666;
+  font-size: 18px;
+  line-height: 25px;
+}
+.singlePostDescInput:focus {
+  outline: none;
+}
+
+.singlePostButton {
+  border: none;
+  background-color: teal;
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: flex-end;
+  margin: top 20px;
+}
